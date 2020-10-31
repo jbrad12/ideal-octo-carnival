@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+
+    $("#currentDay").text(moment().format('MMMM Do YYYY, h:mm a'))
+
     $(".row").each(function () {
         var timeBlock = parseInt($(this).attr("id"))
         if (timeBlock < moment().format('HH')) {
