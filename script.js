@@ -31,4 +31,9 @@ $(document).ready(function() {
         var display = $("#" + keys[i]).find("textarea")
         display.text(value);
     }
+
+    $(".clear").on("click", function(){
+        localStorage.clear();
+        location.reload(true)
+    })
 })

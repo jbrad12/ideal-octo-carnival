@@ -77,3 +77,18 @@ i {
   vertical-align: top
   
 }
+
+.clear-div {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.clear {
+  height: 50px;
+  width: 300px;
+  border-radius: 25px;
+  background-color: #06AED5;
+  padding: 5px;
+  color: white;
+}
